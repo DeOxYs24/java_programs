@@ -32,6 +32,7 @@ public class  Rarrow
 		 
     
 	 System.out.println();
+	 System.out.println("Done");
 	    
                }            
            for(int i=2;i<=n;i++)
