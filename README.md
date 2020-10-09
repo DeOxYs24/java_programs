@@ -37,7 +37,7 @@ Now,lets discuss about O(n^2):-
 eg2:- In case of selection sort , bubble sort and insertion sort we require O(n^2) time.
 
     **insertion sort **
-        `public static void Sort(int a[])
+        ```public static void Sort(int a[])
         {   int n=a.length;
         for(int i=1;i<n;i++){
         int current=a[i];
@@ -53,7 +53,8 @@ eg2:- In case of selection sort , bubble sort and insertion sort we require O(n^
         }
         a[j+1]=current;
         }
-        }`
+        }
+        ```
     
     Here we perform (n*(n-1))/2 
     which is equivalent to n^2 operations.
